@@ -4,6 +4,8 @@ Nombre: Jesus Francisco Fong Ruiz
 
 Matricula: A01254062
 
+-----------------------------------------------------
+
 Contenido:
 
 Actividad 1 Paint
@@ -16,6 +18,7 @@ Actividad 4 Tiro Parabolico
 
 Actividad 5 Memoria
 
+------------------------------------------------------
 
 Proyecto Final
 
