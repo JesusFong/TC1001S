@@ -48,7 +48,7 @@ def circumference(start, end):
     begin_fill()
 
     radius = sqrt(pow((start.x - end.x),2)+ pow((start.y - end.y),2))
-    circle(radius)
+    circle(radius) "con esta funcion se pudo dibujar un circulo"
 
     end_fill()
 
@@ -90,7 +90,7 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
-onkey(lambda: color('purple'), 'P')
+onkey(lambda: color('purple'), 'P') "Se agrego un color nuevo"
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
