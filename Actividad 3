@@ -15,6 +15,9 @@ ghosts = [
     [vector(120, 160), vector (5, 0)],
     [vector(120, -160), vector(0, -5)],
 ]
+
+"Se agregaron vectores a la funcion agregando fantasmas y con esto se incremento la dificultad"
+
 tiles = [
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0,
@@ -74,7 +77,7 @@ def valid(point):
 
 def world():
     "Draw world using path."
-    bgcolor('green')
+    bgcolor('green') "Se cambio el color del tablero"
     path.color('brown')
 
     for index in range(len(tiles)):
