@@ -37,7 +37,7 @@ def draw():
     update()
 
 
-def move():
+def move(): "Aqui se cambio la velocidad durante el juego"
     """Move ball and targets."""
     if randrange(40) == 0:
         y = randrange(-150, 150)
